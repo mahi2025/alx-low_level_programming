@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - the main function
+ * main - Entry point
  *
- * Return: 1  
+ * Return: Always 1 (success)
  */
 
 int main(void)
