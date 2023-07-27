@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - print the assigned number
+ * main - prints the code
  *
  * Return: 0
  */
