@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - this function print array of integers and the number of elements to swap
+ * print_array - print array of integers and the number of elements to swap
  * @a: an array of integers
  * @n: the number of elements to swap
  *
  * Return: nothing.
  */
-void print_array(int *a, int n)
+int print_array(int *a, int n)
 {
 	int i;
 
