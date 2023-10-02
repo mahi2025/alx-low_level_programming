@@ -6,7 +6,8 @@
  * @filename: text file being read
  * @letters: number of letters to be read
  *
- * Return: w for actual number of bytes read and print 0 when it file name is NULL
+ * Return: w for actual number of bytes read and
+ * print 0 when it file name is NULL
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -17,6 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t t;
 
 	fd = open(filename, O_RDONLY);
+
 	if (fd == -1)
 		return (0);
 	buf = malloc(sizeof(char) * letters);
